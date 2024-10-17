@@ -22,7 +22,7 @@ function Header() {
             </div>
 
             <ul className="hidden sm:flex sm:gap-10 font-bold text-xs">
-              {['/', '/Shop', '/Product', '/About', '/Contact'].map((path, index) => (
+              {['#', '#', '#', '#', '#'].map((path, index) => (
                 <li key={index} className="hover:scale-125 duration-200 hover:text-[#DDD5b7] hover:underline">
                   <Link href={path}>{path === '/' ? 'HOME' : path.replace('/', '').toUpperCase()}</Link>
                 </li>
@@ -50,7 +50,7 @@ function Header() {
           {/* Mobile Menu */}
           <div className={`sm:hidden ${isMenuOpen ? 'block' : 'hidden'} bg-gray-800 text-white transition-all duration-300`}>
             <ul className="flex  flex-col  justify-center px-5">
-              {['/', '/Shop', '/Product', '/About', '/Contact'].map((path, index) => (
+              {['#', '#', '#', '#', '#'].map((path, index) => (
                 <li key={index} className="py-2 hover:text-[#DDD5b7] hover:underline">
                   <Link href={path}>{path === '/' ? 'HOME' : path.replace('/', '').toUpperCase()}</Link>
                 </li>

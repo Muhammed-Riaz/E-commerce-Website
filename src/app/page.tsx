@@ -1,5 +1,7 @@
+"use client"
+
 import Image from "next/image"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 import Link from "next/link"
@@ -600,7 +602,7 @@ function page() {
               <div className="z-10 w-[80px] h-[80px] bg-red-700 rounded-full flex items-center justify-center outline-none animate-waveAlarm border-2 border-solid border-red-700">
                 <Link
                   className=" w-[15px] h-[15px] block"
-                  href={"https://www.youtube.com/watch?v=L9ia2xTeoEs"}
+                  href={"#"}
                 >
 
                   <FontAwesomeIcon
