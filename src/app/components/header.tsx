@@ -22,7 +22,7 @@ function Header() {
             </div>
 
             <ul className="hidden sm:flex sm:gap-10 font-bold text-xs">
-              {['#', '#', '#', '#', '#'].map((path, index) => (
+              {['Home', 'Shop', 'services', 'Blog', 'Faq','Contact us'].map((path, index) => (
                 <li key={index} className="hover:scale-125 duration-200 hover:text-[#DDD5b7] hover:underline">
                   <Link href={path}>{path === '/' ? 'HOME' : path.replace('/', '').toUpperCase()}</Link>
                 </li>
