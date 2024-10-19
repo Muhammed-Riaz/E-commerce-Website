@@ -15,13 +15,13 @@ function Footer() {
      
       <p className="mb-4 mt-10 text-xs">No: 58 A, East Madison Street, Baltimore, MD, USA 4508
       Phone : 0000 - 123 - 456789</p>
-      <p className="text-xs font-mono">Email : riazahmedzaur110@gmail.com</p>
+      <p className=" font-mono">Email : riazahmedzaur110@gmail.com</p>
       <p className="font-mono ">Contact : +92 340-2800-715</p>
     </div>
 
     <div>
-      <h3 className="mb-4 text-xl">Categories</h3>
-      <ul className="text-xs">
+      <h3 className="mb-4 text-2xl">Categories</h3>
+      <ul className="">
         <li className="hover:text-red-700 hover:translate-x-2 hover:transition-transform my-5 ">
           <Link href={"#"}>Wholesale</Link>
         </li>
@@ -47,8 +47,8 @@ function Footer() {
     </div>
 
     <div>
-      <h3 className="mb-4 text-xl">About US</h3>
-      <ul className="text-xs">
+      <h3 className="mb-4 text-2xl">About US</h3>
+      <ul className="">
         <li className="hover:text-red-700 hover:translate-x-2 hover:transition-transform my-5 ">
           <Link href={"#"}>About us</Link>
         </li>
@@ -75,8 +75,8 @@ function Footer() {
     </div>
 
     <div>
-      <h3 className="mb-4 text-xl">Let Us Help</h3>
-      <ul className="text-xs">
+      <h3 className="mb-4 text-2xl">Let Us Help</h3>
+      <ul className="">
         <li className="hover:text-red-700 hover:translate-x-2 hover:transition-transform my-5 ">
           <Link href={"#"}>My account</Link>
         </li>
@@ -102,8 +102,17 @@ function Footer() {
     </div>
 
     </div>
+    <div>
+      <h3 className="text-yellow-300 text-xl font-semibold mb-4 mt-10">Contact Us</h3>
+      <p>Sindh</p>
+        <p>Hyderabad</p>
+        <p>Email: riazahmedzaur110@gmail.com</p>
+        <p>phone:+92 340280071-5</p>
+        <p>GIAIC:Student</p>
+    </div>
 
-    <p className="text-gray-50 text-center mt-10 text-xs">© 2024 Mr-Tevor Design Themes</p>
+    <p className="text-gray-50 text-center mt-10 ">© 2024 Mr-Tevor Design Themes</p>
+
     </footer>
   )
 }
