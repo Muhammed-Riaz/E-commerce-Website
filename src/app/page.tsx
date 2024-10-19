@@ -21,9 +21,9 @@ function page() {
 
       </div>
 
-      <section className="lg:max-w-full lg:max-h-screen bg-[url('https://mr-tevor.myshopify.com/cdn/shop/files/lines-bg_f0aae086-45d5-49e6-b0c9-0fb825e7d97a.png?v=1640086019')] lg:mt-32 mt-10 ">
+      <section className="lg:max-w-full lg:max-h-screen bg-[url('https://mr-tevor.myshopify.com/cdn/shop/files/lines-bg_f0aae086-45d5-49e6-b0c9-0fb825e7d97a.png?v=1640086019')] lg:mt-10 md:mt-10 mt-10 ">
 
-        <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:mb-28 mt-[450px] lg:p-5">
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:mb-28 mt-[450px] md:mt-[50px] lg:mt-14 lg:p-5">
           <div className="lg:p-10 pl-5 lg:pl-0">
             <h6 className="">Wellcome</h6>
             <h4 className="text-red-700 text-xl lg:text-6xl pt-4">Our Special Suit Look</h4>
