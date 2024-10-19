@@ -160,8 +160,8 @@ function page() {
 
 
           <div className='h-auto opacity-[1] w-[100%] relative group lg:mt-0 mt-14  mb-20'>
-            <Image
-              src={" https://mr-tevor.myshopify.com/cdn/shop/products/shop-1_600x.png?v=1641536729%22"}
+          <Image
+              src={"https://mr-tevor.myshopify.com/cdn/shop/products/shop-10_600x.png?v=1641536777"}
               width={500}
               height={500}
               alt="Shirt"
