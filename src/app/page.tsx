@@ -12,19 +12,19 @@ function page() {
       <div className="bg-[url('https://mr-tevor.myshopify.com/cdn/shop/files/tevor-slider-hotspot_1512x.png?v=1640149541')] lg:w-full lg:h-[100vh] w-full h-[100px] bg-cover object-cover flex flex-col justify-start lg:justify-between ">
 
 
-        <div className="text-red-600 md:text-white lg:text-white lg:max-w-[50vw] mx-auto lg:mr-28 lg:pt-48 mt-32 lg:mt-0">
+        <div className="text-gray-900  md:text-white lg:text-white lg:max-w-[50vw] mx-auto lg:mr-28 lg:pt-48 mt-32 lg:mt-0 text-center p-5">
           <h4 className="pt-5 mb-4 lg:text-5xl text-2xl lg:pl-4 ">HIGH <span className="animate-colorChange">QUALITY TAILORING </span>AT YOUR FINGERTIPS.</h4>
-          <p className=" mb-4 lg:pl-16 pl-5 text-base ">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do <br className="pt-1" /> eiusmod tempor incididunt ut labore et dolore magna aliqua uis <br className="pt-1" /> ipsum suspendisse ultrices.</p>
+          <p className=" mb-4 lg:pl-16 pl-5 text-base  ">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do <br className="pt-1" /> eiusmod tempor incididunt ut labore et dolore magna aliqua uis <br className="pt-1" /> ipsum suspendisse ultrices.</p>
           <button className="bg-[#ab1e23] hover:bg-[#ddd5b7] hover:text-gray-900 duration-300  text-white lg:px-[10px] sm:max-w-sm  p-[12px_8px] font-[16px] border-s-amber-50 lg:ml-28 lg:mt-16 ml-5 ">READ MORE</button>
         </div>
 
 
       </div>
 
-      <section className="lg:max-w-full lg:max-h-screen bg-[url('https://mr-tevor.myshopify.com/cdn/shop/files/lines-bg_f0aae086-45d5-49e6-b0c9-0fb825e7d97a.png?v=1640086019')] lg:mt-10 md:mt-10 mt-10 ">
+      <section className="lg:max-w-full lg:max-h-screen bg-[url('https://mr-tevor.myshopify.com/cdn/shop/files/lines-bg_f0aae086-45d5-49e6-b0c9-0fb825e7d97a.png?v=1640086019')] lg:mt-10 md:mt-10 mt-10  text-center mx-auto px-10">
 
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:mb-28 mt-[450px] md:mt-[50px] lg:mt-14 lg:p-5">
-          <div className="lg:p-10 pl-5 lg:pl-0">
+          <div className="lg:p-10 pl-5 lg:pl-0 p-10">
             <h6 className="">Wellcome</h6>
             <h4 className="text-red-700 text-xl lg:text-6xl pt-4">Our Special Suit Look</h4>
             <p className=" pt-3">Varius sit amet mattis vulputnse telus ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
@@ -161,7 +161,7 @@ function page() {
 
           <div className='h-auto opacity-[1] w-[100%] relative group lg:mt-0 mt-14  mb-20'>
             <Image
-              src={" https://mr-tevor.myshopify.com/cdn/shop/products/shop-9_600x.png?v=1641536729%22"}
+              src={" https://mr-tevor.myshopify.com/cdn/shop/products/shop-1_600x.png?v=1641536729%22"}
               width={500}
               height={500}
               alt="Shirt"
@@ -585,7 +585,7 @@ function page() {
 
 
 
-      <section className="mt-10 mb-10">
+      <section className="mt-10 mb-10 px-10 text-center ">
         <div className="w-full">
           <div className="relative">
             <Image

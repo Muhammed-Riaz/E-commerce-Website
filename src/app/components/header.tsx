@@ -16,12 +16,12 @@ function Header() {
       <section className="sm:max-w-[1540px] shadow-[0_0px_12px_-5px_#6a6a6a] m-auto transition-all duration-500 ease-[cubic-bezier(.25,.8,.25,1)]">
         <div className="lg:max-w-full m-auto [padding-left:calc(var(--DTGutter_Width)/2)] [padding-right:calc(var(--DTGutter_Width)/2)] [width:var(--DTContainer)]">
 
-          <nav className="flex items-center lg:justify-between justify-start p-4 text-white">
+          <nav className="flex items-center lg:justify-between justify-between p-4 text-white">
             <div className="flex-shrink-0 lg:mr-24">
               <Image src="/log.png" width={130} height={40} alt="logo" />
             </div>
 
-            <ul className="hidden sm:flex sm:gap-10 font-bold text-xs">
+            <ul className="hidden sm:flex sm:gap-10 font-bold text-xs ">
               {['Home', 'Shop', 'services', 'Blog', 'Faq','Contact us'].map((path, index) => (
                 <li key={index} className="hover:scale-125 duration-200 hover:text-[#DDD5b7] hover:underline">
                   <Link href={path}>{path === '/' ? 'HOME' : path.replace('/', '').toUpperCase()}</Link>
@@ -49,8 +49,8 @@ function Header() {
 
           {/* Mobile Menu */}
           <div className={`sm:hidden ${isMenuOpen ? 'block' : 'hidden'} bg-gray-800 text-white transition-all duration-300`}>
-            <ul className="flex  flex-col  justify-center px-5">
-              {['#', '#', '#', '#', '#'].map((path, index) => (
+            <ul className="flex  flex-col  justify-center px-5 items-center">
+              {['Home', 'Shop', 'services', 'Blog', 'Faq','Contact us'].map((path, index) => (
                 <li key={index} className="py-2 hover:text-[#DDD5b7] hover:underline">
                   <Link href={path}>{path === '/' ? 'HOME' : path.replace('/', '').toUpperCase()}</Link>
                 </li>
