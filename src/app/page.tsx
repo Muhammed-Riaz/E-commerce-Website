@@ -12,9 +12,9 @@ function page() {
       <div className="bg-[url('https://mr-tevor.myshopify.com/cdn/shop/files/tevor-slider-hotspot_1512x.png?v=1640149541')] lg:w-full lg:h-[100vh] w-full h-[100px] bg-cover object-cover flex flex-col justify-start lg:justify-between ">
 
 
-        <div className="text-red-600 lg:max-w-[50vw] mx-auto lg:mr-28 lg:pt-48 mt-32 lg:mt-0">
+        <div className="text-red-600 md:text-white lg:text-white lg:max-w-[50vw] mx-auto lg:mr-28 lg:pt-48 mt-32 lg:mt-0">
           <h4 className="pt-5 mb-4 lg:text-5xl text-2xl lg:pl-4 ">HIGH <span className="animate-colorChange">QUALITY TAILORING </span>AT YOUR FINGERTIPS.</h4>
-          <p className=" mb-4 lg:pl-16 pl-5 text-base text-red-800">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do <br className="pt-1" /> eiusmod tempor incididunt ut labore et dolore magna aliqua uis <br className="pt-1" /> ipsum suspendisse ultrices.</p>
+          <p className=" mb-4 lg:pl-16 pl-5 text-base ">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do <br className="pt-1" /> eiusmod tempor incididunt ut labore et dolore magna aliqua uis <br className="pt-1" /> ipsum suspendisse ultrices.</p>
           <button className="bg-[#ab1e23] hover:bg-[#ddd5b7] hover:text-gray-900 duration-300  text-white lg:px-[10px] sm:max-w-sm  p-[12px_8px] font-[16px] border-s-amber-50 lg:ml-28 lg:mt-16 ml-5 ">READ MORE</button>
         </div>
 
